@@ -91,3 +91,32 @@ graph LR
     *   触发条件：主要维护者失联或严重违反 SLA，且应用仍有大量活跃用户。
     *   执行：DAO 启动代码分叉或接管程序（基于 **Grant 协议** 中的托管条款）。
     *   权益：原作者保留部分永久荣誉分润，管理权移交新维护者。
+
+---
+
+## 📅 Appendix: Operational Evolution Strategy (运营进化论)
+
+此处保留了早期的分阶段运营逻辑，详细说明了各个阶段中系统与角色的交互重点。
+
+### Phase 1: MVP (基建期 - 对应 Soil)
+**核心逻辑**：人工与代码结合，跑通最小闭环。
+*   **Platform**: 提供 MySBT 身份认证和计费网关 SDK。
+*   **Builder**: 接入 SDK，提供基础服务 (Translation, GenAI)。
+*   **User**: 早期种子用户，通过人工邀请入驻，测试支付流程。
+
+### Phase 2: Automation (自动化期 - 对应 Sprout)
+**核心逻辑**：引入 AI 算法替代人工运营。
+*   **Platform (AI Ops)**:
+    *   **"Star-Scout" (星探算法)**: 自动扫描 GitHub 寻找优质开源项目。
+    *   **"Match-100" (天使匹配)**: 自动将新应用推送到潜在感兴趣的 100 位天使用户面前。
+*   **Builder (Rangers)**: 签署《Grant 协议》，获得流量扶持，承诺服务稳定性。
+*   **User**: 获得体验金 (Token)，参与 "Proof of Taste" (品味证明)。
+
+### Phase 3: Decentralization (去中心化期 - 对应 Bloom)
+**核心逻辑**：DAO 治理接管，去信任化。
+*   **Platform (DAO)**:
+    *   启动 **Community Jury** (仲裁庭) 处理纠纷。
+    *   开放 **Treasury Dashboard** (国库面板)。
+*   **Builder**: 甚至可以发行自己的子 Token，由 Park 协议提供流动性支持。
+*   **User**: 深度参与治理，决定协议参数 (如税率、Grant 门槛)。
+
